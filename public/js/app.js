@@ -1,5 +1,3 @@
-console.log('Client side javascript loaded!');
-
 document.addEventListener('DOMContentLoaded', () => {
 	const weatherForm = document.querySelector('form');
 	const weatherForecast = document.querySelector('.weather-forecast');
