@@ -112,7 +112,7 @@ app.get('*', (req, res) => {
 	})
 })
 
-const PORT = 80
+const PORT = process.env.PORT || 8081
 app.listen(PORT, () => {
 	console.log('Listening on port http://localhost:' + PORT)
 })
