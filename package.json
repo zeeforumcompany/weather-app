@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "postman-request": "^2.88.1-postman.31"
   },
   "devDependencies": {
-    "@babel/cli": "^7.20.7"
+    "@babel/cli": "^7.20.7",
+    "nodemon": "^2.0.20"
   }
 }
